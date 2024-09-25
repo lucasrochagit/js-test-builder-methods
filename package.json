@@ -1,0 +1,25 @@
+{
+  "name": "builder-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:mocha": "mocha ./**/*.mocha.test.js",
+    "test:jest": "jest --testRegex=\".*\\.jest.test\\.js$\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^5.0.0",
+    "mongoose": "^8.6.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "chai": "^4.5.0",
+    "jest": "^29.7.0",
+    "json-generator": "^0.3.1",
+    "mocha": "^10.7.3",
+    "sinon": "^19.0.2"
+  }
+}
